@@ -1,0 +1,21 @@
+{
+  "schema": "thoxkey-update-feed/1",
+  "channel": "stable",
+  "releases": [
+    {
+      "host": "windows",
+      "version": "0.4.1",
+      "tag": "start-windows-v0.4.1",
+      "published": "2026-11-10",
+      "release_url": "https://github.com/ttracx/thox-key-releases/releases/tag/start-windows-v0.4.1",
+      "notes_url": "https://github.com/ttracx/thox-key-releases/blob/main/notes/start-windows-v0.4.1.md",
+      "package_sha256": "f9b3e0c57625e3d7d49e5a467ceb809c826eba18dff340a89b1a228f69abde97",
+      "assets": [
+        {
+          "name": "Start-ThoxKey.exe",
+          "sha256": "e1c95c40df0af7542d347b889846989e7010fb48d16456164c3980154b1e3ce6"
+        }
+      ]
+    }
+  ]
+}
