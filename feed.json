@@ -4,16 +4,79 @@
   "releases": [
     {
       "host": "windows",
+      "version": "0.3.1",
+      "tag": "start-windows-v0.3.1",
+      "published": "2026-11-08",
+      "release_url": "https://github.com/ttracx/thox-key/releases/tag/start-windows-v0.3.1",
+      "package_sha256": "c2e66806b93ff8a4bd889ca46f1ac7b392088588b0eb7de969ef0471eb0f205b",
+      "assets": [
+        {
+          "name": "Start-ThoxKey.exe",
+          "sha256": "672fbac3c8019eb94f47bbe3b292eccf49cc9913e898583014cec3ca1481d79b"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "2595bd747acff7271b15ff22bcce88ee9f43b57cde44f81e4f68333c4d845bc9"
+        },
+        {
+          "name": "thoxkey-start-0.3.1-windows-report.html",
+          "sha256": "42e648760cf5d9f6671dd770b6280251de3a195957875298914cf6a42cacebf4"
+        },
+        {
+          "name": "thoxkey-start-0.3.1-windows-report.pdf",
+          "sha256": "187274d318a953c9b3d4781212044e8bda7f4001cfbbcb52209354bf27f844db"
+        },
+        {
+          "name": "thoxkey-txf-demo.mp4",
+          "sha256": "0c8286ff2c7befa9d25928cc329fc994db62099e5938652b3de5f9bf29b3c73b"
+        }
+      ]
+    },
+    {
+      "host": "windows",
+      "version": "0.4.0",
+      "tag": "start-windows-v0.4.0",
+      "published": "2026-11-09",
+      "release_url": "https://github.com/ttracx/thox-key/releases/tag/start-windows-v0.4.0",
+      "package_sha256": "9e34db0bd78876447fe9692b4ce74bb8697440d440da26f687c4196bb0f7a057",
+      "assets": [
+        {
+          "name": "Start-ThoxKey.exe",
+          "sha256": "e36198befb19be94cde439608bc964d8b5b06b51f00eed3e54d065b8f1fbc183"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "19c8482d3c641e4175619b148e919abdfa1e26c529e94409cc37b258584745be"
+        },
+        {
+          "name": "thoxkey-plugin-demo.mp4",
+          "sha256": "bdeceb18c2c8b6c8104d7cedcb9a86d45a0c2020972cd8b2d86a8f80136c16dc"
+        },
+        {
+          "name": "thoxkey-start-0.4.0-report.html",
+          "sha256": "42d9039e9133a8daa03d33ed29fab550a33d68d14938ed37d613795ccb220a7d"
+        },
+        {
+          "name": "thoxkey-start-0.4.0-report.pdf",
+          "sha256": "a7ae69b6523a67a7e2f472ccde0a16bc9856c15201fb2f70dae9e5e49f62308f"
+        }
+      ]
+    },
+    {
+      "host": "windows",
       "version": "0.4.1",
       "tag": "start-windows-v0.4.1",
       "published": "2026-11-10",
-      "release_url": "https://github.com/ttracx/thox-key-releases/releases/tag/start-windows-v0.4.1",
-      "notes_url": "https://github.com/ttracx/thox-key-releases/blob/main/notes/start-windows-v0.4.1.md",
+      "release_url": "https://github.com/ttracx/thox-key/releases/tag/start-windows-v0.4.1",
       "package_sha256": "f9b3e0c57625e3d7d49e5a467ceb809c826eba18dff340a89b1a228f69abde97",
       "assets": [
         {
           "name": "Start-ThoxKey.exe",
           "sha256": "e1c95c40df0af7542d347b889846989e7010fb48d16456164c3980154b1e3ce6"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "e286de809733da4e7f76b9f8c6871d6ed70241bc76623a6009331ee65bfd15e4"
         }
       ]
     }

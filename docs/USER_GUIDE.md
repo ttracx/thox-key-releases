@@ -1,25 +1,23 @@
 # Updating a ThoxKey™
 
-## Do I need an update?
+## Which ThoxKey Start does my key run?
 
-- **ThoxKey Start 0.4.2 or later:** open ThoxOS from your key, go to **Devices, Updates & recovery** and
-  press **Check for updates**. ThoxKey Start compares itself with [`feed.json`](../feed.json) and tells
-  you whether a newer version exists. It sends no account, key or computer details, and downloads nothing.
-- **Earlier versions:** the same page shows your version. Compare it with the
-  [latest release](https://github.com/ttracx/thox-key-releases/releases/latest).
+Open ThoxOS from the key and go to **Devices, Updates & recovery**. The **ThoxKey software** panel shows
+the version.
 
-## Update
+- **0.4.2 or later:** press **Check for updates**. ThoxKey Start compares itself with this list and says
+  whether a newer version exists. Nothing is downloaded or installed.
+- **0.4.1 or older:** the key cannot check by itself. Compare its version with the newest entry in
+  [`feed.json`](../feed.json) and update by hand once, as below. After that, the key can check.
 
-1. Download the release files for your computer and `SHA256SUMS.txt`.
-2. Check every file's SHA-256 against `SHA256SUMS.txt` and the release notes. Stop if any differs.
-3. Install the matching sealed key package with the ThoxKey provisioner. The release notes name the
-   package's SHA-256.
-4. Plug the key in, press **Inspect key**, then **Approve and start**.
+## Update a key by hand
 
-Copying `Start-ThoxKey.exe` onto a key by hand does not update it: the key checks every file against its
+1. Open the release page named in the list. It needs access to the ThoxKey repository.
+2. Download the files for your computer and check each one's SHA-256 against this list. Stop if any
+   value differs.
+3. Install the matching sealed key package with the ThoxKey provisioner. Its SHA-256 is the entry's
+   `package_sha256`.
+4. Plug the key back in, press **Inspect key**, then **Approve and start**.
+
+A ThoxKey Start copied onto a key by hand does not update it: the key checks every file against its
 sealed package, and a changed starter fails that check.
-
-## Windows warning
-
-Builds marked "unsigned" are internal engineering builds. Windows SmartScreen may warn before the first
-run. Run one only after its SHA-256 matches.
