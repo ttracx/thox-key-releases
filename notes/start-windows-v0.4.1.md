@@ -4,7 +4,7 @@ Internal engineering build: unsigned. Windows may show a SmartScreen warning bef
 
 ## What changed
 
-- **Browser models on the key.** In ThoxOS™, THOXY Edge 230M and the other browser models the key
+- **Browser models on the key.** In ThoxOS™, THOXY™ Edge 230M and the other browser models the key
   carries could not load their engine and showed "no available backend found". ThoxKey Start now lets
   ThoxOS load that engine from the key. Network access stays on this computer.
 - **Automatic answers with the key's model.** In ThoxOS, **Automatic** now answers with the model
