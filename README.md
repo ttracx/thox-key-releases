@@ -30,7 +30,7 @@ list. Steps: [docs/USER_GUIDE.md](docs/USER_GUIDE.md).
 
 | Computer | Newest listed |
 | --- | --- |
-| Windows | 0.4.1 |
+| Windows | 0.4.2 |
 | macOS | none |
 | Linux | none |
 

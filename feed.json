@@ -79,6 +79,24 @@
           "sha256": "e286de809733da4e7f76b9f8c6871d6ed70241bc76623a6009331ee65bfd15e4"
         }
       ]
+    },
+    {
+      "host": "windows",
+      "version": "0.4.2",
+      "tag": "start-windows-v0.4.2",
+      "published": "2026-11-10",
+      "release_url": "https://github.com/ttracx/thox-key/releases/tag/start-windows-v0.4.2",
+      "package_sha256": "49e864e70ddf308dcb33de9241bcbabd39f68ff50f7177bf754f9595e824647d",
+      "assets": [
+        {
+          "name": "Start-ThoxKey.exe",
+          "sha256": "a9f509bb5b5c1c2a87ee213a25b2f821fd8f3dc375c1ea2256ba4828e0e38abc"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "sha256": "602b17d931af14225955cd36035aa5f106874bd0b4355b3144770064224d5963"
+        }
+      ]
     }
   ]
 }
