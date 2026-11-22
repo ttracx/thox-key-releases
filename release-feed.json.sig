@@ -1,5 +1,5 @@
 {
   "alg": "ed25519",
   "keyId": "thox-release-2026-11",
-  "signature": "kdse0ZLoYVy2mKkfum/1HtAT40CMZa8T9IAQt6+O/OXyijqWsFjUFAJbaVSac9ZlhProX939W1O7ypYjPHX9Dw=="
+  "signature": "iCDPDLK6wIUSDRh1N8vBr9KJLsgo183LjzyVG8ULRkbmJEezKgX/a0m0Os0Xs8vJhllNQcyTkNVpK6N+vpykDA=="
 }

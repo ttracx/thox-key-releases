@@ -1,7 +1,7 @@
 {
   "schema": "thoxkey-release-feed/1",
   "channel": "stable",
-  "sequence": 1,
+  "sequence": 2,
   "published": "2026-11-22",
   "items": [
     {
@@ -179,6 +179,28 @@
       "bytes": 6216967936,
       "sha256": "1ee1cd89574b1b2e57447d6dab8328a6c39b20d18557a322d928215a8a8a96de",
       "notes": "Larger general assistant."
+    },
+    {
+      "kind": "setup",
+      "id": "thoxkey-setup",
+      "version": "1.1.0",
+      "title": "ThoxKey Setup 1.1.0 for Windows",
+      "host": "windows",
+      "url": "https://github.com/ttracx/thox-key-provisioner/releases/download/setup-v1.1.0/ThoxKey-Setup-1.1.0-windows-x64.exe",
+      "bytes": 7918080,
+      "sha256": "4fe62249c66d7b7ba0126add1b841ae0d29ca4e33dfe2c9ca700ab9208fb1881",
+      "notes": "Make a key from the signed release, update keys in place, models and packs in one catalog. Run it from a folder under Program Files."
+    },
+    {
+      "kind": "setup",
+      "id": "thoxkey-setup",
+      "version": "1.1.0",
+      "title": "ThoxKey Setup 1.1.0 for macOS",
+      "host": "macos",
+      "url": "https://github.com/ttracx/thox-key-provisioner/releases/download/setup-v1.1.0/ThoxKey-Setup-1.1.0-macOS-universal.zip",
+      "bytes": 8742799,
+      "sha256": "3d294c0a4b90d74ee9ef5e216a3f117c62e09ed34cfc86651b3e2902ab7e45bd",
+      "notes": "Apple silicon and Intel. Ad-hoc signed, not notarized."
     }
   ]
 }
