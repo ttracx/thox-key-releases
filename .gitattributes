@@ -1,0 +1,3 @@
+# The signature covers exact bytes: never convert line endings in these files.
+release-feed.json -text
+release-feed.json.sig -text

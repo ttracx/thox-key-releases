@@ -1,0 +1,184 @@
+{
+  "schema": "thoxkey-release-feed/1",
+  "channel": "stable",
+  "sequence": 1,
+  "published": "2026-11-22",
+  "items": [
+    {
+      "kind": "model",
+      "id": "thoxmini-3b",
+      "version": "1.0.0",
+      "title": "ThoxMini 3B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxMini-3B/resolve/56c4440e687af5e3acdca7a2291a6f5b5a92da36/thoxmini-3b-Q4_K_M.gguf",
+      "bytes": 2019373952,
+      "sha256": "3bcfb6e420667731de4f31845fde0e78557e28db8e4ed7ea897832de30776dfa",
+      "notes": "The default assistant on every ThoxKey."
+    },
+    {
+      "kind": "model",
+      "id": "thoxnova-12b-core",
+      "version": "1.0.0",
+      "title": "ThoxNova 12B Core",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxNova-12B-Core/resolve/a0bdaf34038315b93c857252e8f00f803ef2b3f8/thoxnova-12b-core-Q4_K_M.gguf",
+      "bytes": 7381366560,
+      "sha256": "f0895a937c6ff1ad9973d5058f616b4b3e8e514ca864a57471644f0ce4d46b40",
+      "notes": "Larger general assistant."
+    },
+    {
+      "kind": "model",
+      "id": "thoxnova-12b-agent",
+      "version": "1.0.0",
+      "title": "ThoxNova 12B Agent",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxNova-12B-Agent/resolve/2d41774c676308ee62d462ffc40dd26b5d685f68/thoxnova-12b-agent-Q4_K_M.gguf",
+      "bytes": 7381366560,
+      "sha256": "303e5127e3a1da7d1bc3fa32833b6762455263e84622ecc93fa33567b4cd1994",
+      "notes": "Larger assistant tuned for tool use."
+    },
+    {
+      "kind": "model",
+      "id": "thoxllm-327m-v2",
+      "version": "1.0.0",
+      "title": "ThoxLLM 327M v2",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxLLM-327M-v2-GGUF/resolve/4e1edd150d96a5cc3253c8607810384e9370f8d1/thoxllm-327m-v2.q4_k_m.gguf",
+      "bytes": 299375520,
+      "sha256": "8f35de729117e982f4420358d43b9d0da612c8abf04e564af1c72420d116d056",
+      "notes": "A base model, not for chat."
+    },
+    {
+      "kind": "model",
+      "id": "thoxedge-0.5b",
+      "version": "1.0.0",
+      "title": "ThoxEdge 0.5B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxEdge-0.5B/resolve/cd93ff2c61ca37aefab19d754a70f88963dcce7a/ThoxEdge-0.5B.Q4_K_M.gguf",
+      "bytes": 397807488,
+      "sha256": "6fb3222b996048fac6e4241274104382f30582b30bbddf47edcf9b56917d8598",
+      "notes": "Small and fast."
+    },
+    {
+      "kind": "model",
+      "id": "thoxedge-0.8b",
+      "version": "1.0.0",
+      "title": "ThoxEdge 0.8B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxEdge-0.8B/resolve/903dc2d030511d5672668382ebf86e7687349c71/ThoxEdge-0.8B.Q4_K_M.gguf",
+      "bytes": 529297056,
+      "sha256": "8ef0900d1f76da67442dca354a778517ddc008b9f73926df874f7f3dff5d5625",
+      "notes": "Small and fast."
+    },
+    {
+      "kind": "model",
+      "id": "thoxair-0.5b",
+      "version": "1.0.0",
+      "title": "ThoxAir 0.5B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxAir-0.5B/resolve/5a79699fbdafbeb9232628cd8e3aa5a4ba918b36/ThoxAir-0.5B.Q4_K_M.gguf",
+      "bytes": 397807584,
+      "sha256": "fb32e5ab802df466809836182f071bb0ab0871abb9273131456c89d998bccd6a",
+      "notes": "Small and fast."
+    },
+    {
+      "kind": "model",
+      "id": "thoxclip-qwen3-0.6b",
+      "version": "1.0.0",
+      "title": "ThoxClip Qwen3 0.6B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxClip-Qwen3-0.6B/resolve/c15a0182908d1a4047a1e8d98da4b0edd845abcf/ThoxClip-Qwen3-0.6B.Q4_K_M.gguf",
+      "bytes": 396704672,
+      "sha256": "1e009136e1ed3bdfee1343a5309c7d5f36d75b517ad84d56233c9ffe5c248d96",
+      "notes": "Small and fast."
+    },
+    {
+      "kind": "model",
+      "id": "thoxnano-360m",
+      "version": "1.0.0",
+      "title": "ThoxNano 360M",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxNano-360M/resolve/8082a0ae79b82eafec0f86c431e38a83757c3286/ThoxNano-360M.Q4_K_M.gguf",
+      "bytes": 270590336,
+      "sha256": "b1c6dcc9c91a8664c420edcc9dbd9f47967f37b5abe193a2a4f5a37ecd904876",
+      "notes": "Very small."
+    },
+    {
+      "kind": "model",
+      "id": "thoxroute-1.5b",
+      "version": "1.0.0",
+      "title": "ThoxRoute 1.5B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxRoute-1.5B-GGUF/resolve/9617935e1683c745fd2af50b5e2c5487bf9eb387/thoxroute-1.5b-Q4_K_M.gguf",
+      "bytes": 986047936,
+      "sha256": "6c96bcdb305ac32dcc4bbc1dd229e4d54d013eebd5a76319b226fa31103e37fc",
+      "notes": "A routing model, not for chat."
+    },
+    {
+      "kind": "model",
+      "id": "thoxmini-phi4mini",
+      "version": "1.0.0",
+      "title": "ThoxMini Phi-4 Mini",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxMini-Phi4Mini/resolve/7cb77b5709de2ef98320b5639a0406fa33d96bed/ThoxMini-Phi4Mini.Q4_K_M.gguf",
+      "bytes": 2493840576,
+      "sha256": "a19e96061d84ca2014d4de98d0c0397e6df4db8f73c2163afa6bcb90d15afedf",
+      "notes": "Compact general assistant."
+    },
+    {
+      "kind": "model",
+      "id": "thoxos-kernel-4b",
+      "version": "1.0.0",
+      "title": "ThoxOS Kernel 4B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxOS-Kernel-4B/resolve/352440ac5b4664538caee432c5f96261d54b31ed/ThoxOS-Kernel-4B.Q4_K_M.gguf",
+      "bytes": 2708804128,
+      "sha256": "2c870bf75a391f9d59cd11ab35edd273de5f79d9bb799c63ec67580125a4e371",
+      "notes": "Mid-size general assistant."
+    },
+    {
+      "kind": "model",
+      "id": "thoxopen-8b-heretic",
+      "version": "1.0.0",
+      "title": "ThoxOpen 8B Heretic",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxOpen-8B-Heretic/resolve/4a33d278d8ef8280332b1f9a7da1deb544bb448c/ThoxOpen-8B-Heretic-Q4_K_M.gguf",
+      "bytes": 5027783680,
+      "sha256": "06236b28b757bba5c49466cb11e5a5e8f7f7d35b7718ebaf8fb9bf7bf2c203c9",
+      "notes": "Mid-size general assistant."
+    },
+    {
+      "kind": "model",
+      "id": "thoxwave-8b",
+      "version": "1.0.0",
+      "title": "ThoxWave 8B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxWave-8B/resolve/0cbe2f5eba849c055d92f4daa7faa8b01dea9b64/thoxwave-8b-Q4_K_M.gguf",
+      "bytes": 4920745568,
+      "sha256": "1d82bfbda901e4018a5acb0855d4d945534da7335d17496b487b4437f6cc47bc",
+      "notes": "Mid-size general assistant."
+    },
+    {
+      "kind": "model",
+      "id": "thoxglobal-7b",
+      "version": "1.0.0",
+      "title": "ThoxGlobal 7B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxGlobal-7B/resolve/11f36d2e75df2f531e2345f0fb20c780fc319101/thoxglobal-7b-Q4_K_M.gguf",
+      "bytes": 4683073408,
+      "sha256": "6de855b3c1ff26efa7e3425ee182b4339990f7d609c70dd31e81db1a102756ca",
+      "notes": "Mid-size multilingual assistant."
+    },
+    {
+      "kind": "model",
+      "id": "thoxmythos-9b",
+      "version": "1.0.0",
+      "title": "ThoxMythos 9B",
+      "host": "any",
+      "url": "https://huggingface.co/Thox-ai/ThoxMythos-9B/resolve/2a5645ede59c4bec5bc8c63e4cfa70eb158508c2/thoxmythos-9b-q4_k_m.gguf",
+      "bytes": 6216967936,
+      "sha256": "1ee1cd89574b1b2e57447d6dab8328a6c39b20d18557a322d928215a8a8a96de",
+      "notes": "Larger general assistant."
+    }
+  ]
+}

@@ -34,6 +34,25 @@ list. Steps: [docs/USER_GUIDE.md](docs/USER_GUIDE.md).
 | macOS | none |
 | Linux | none |
 
+## The signed release feed
+
+[`release-feed.json`](release-feed.json) lists what is current for a ThoxKey: models today, and
+ThoxKey Setup, ThoxKey Start, ThoxOS images and add-on packs as they are published. Each entry
+gives an address, an exact size and a SHA-256. [`release-feed.json.sig`](release-feed.json.sig)
+is an Ed25519 signature over the exact bytes of the feed.
+
+```
+https://raw.githubusercontent.com/ttracx/thox-key-releases/main/release-feed.json
+```
+
+ThoxKey Setup 1.1 and later reads this address. It checks the signature against a key compiled
+into the app before it reads anything in the feed, refuses a feed older than one it has already
+accepted, and checks every download against the size and SHA-256 listed here. It sends no
+account, key or computer details. Format: [docs/RELEASE-FEED.md](docs/RELEASE-FEED.md).
+
+The two files are published together and must not be edited by hand: any change to the feed,
+even to its spacing, makes the signature fail.
+
 ## License and notice
 
 Apache License 2.0, see [LICENSE](LICENSE). [NOTICE.md](NOTICE.md) carries the THOX.ai LLC notice.
