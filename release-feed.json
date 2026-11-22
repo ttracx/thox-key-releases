@@ -1,7 +1,7 @@
 {
   "schema": "thoxkey-release-feed/1",
   "channel": "stable",
-  "sequence": 3,
+  "sequence": 4,
   "published": "2026-11-22",
   "items": [
     {
@@ -201,6 +201,277 @@
       "bytes": 8742759,
       "sha256": "5bd5648bf74256aba42559886d08b96d4bc0038e5e270d1500216da418f43e4c",
       "notes": "Apple silicon and Intel. Ad-hoc signed, not notarized."
+    },
+    {
+      "kind": "package",
+      "id": "thoxkey-portal",
+      "version": "0.1.2",
+      "title": "ThoxKey Portal",
+      "host": "windows",
+      "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/",
+      "bytes": 3523598,
+      "sha256": "c566411c1f4e2c4c572182e503ffedacaa44352391784558fc62b8b18c46f9a4",
+      "notes": "The ThoxOS portal and browser agent for a ThoxKey: THOXY and Ava use Chrome or Edge on THOX's own sites, with approvals and an audit log. Runs the models already on the key.",
+      "files": [
+        {
+          "path": "packs/thoxkey-portal/ThoxKey-Portal.cmd",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/ThoxKey-Portal.cmd",
+          "bytes": 585,
+          "sha256": "a71acd6f74c6040fc2e32048a300d1dca32d1a8b12aaa77462133ea78c01104e"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/PORTAL-README.txt",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__PORTAL-README.txt",
+          "bytes": 1266,
+          "sha256": "f909527e99fee55170fbfb26b33008c9ce8d6d302e3702481aff4d94a07dc19f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/bin/windows-x64/thoxkey-bridge.exe",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__bin__windows-x64__thoxkey-bridge.exe",
+          "bytes": 3082240,
+          "sha256": "088f08bca0e3cb8551f79d433cfa3dbc6846f3edc275d43f9621391455265461"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/config/models.manifest.json",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__config__models.manifest.json",
+          "bytes": 7103,
+          "sha256": "c7e93b091a2308811989a395cc6b4d955319f4c6e423780463223a51faf4c0f2"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/config/tenant.json",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__config__tenant.json",
+          "bytes": 2190,
+          "sha256": "f8a1ab2fdc7354a223bf0c2238c916aa71859176e2f489d10a50f42f33c95357"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/demo.css",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__demo.css",
+          "bytes": 1097,
+          "sha256": "eb4f6a33191ee771846368b540c1b641ce0c58a263fb5b13bc3c3245f739095d"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/index.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__index.html",
+          "bytes": 1713,
+          "sha256": "866763d0211bedb1f138f1ab0848d9ce0fccc149093229fa25f88a82e958fa68"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/request.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__request.html",
+          "bytes": 1164,
+          "sha256": "2d9d63dd331efa4a8209b13666cd4a776cb0ba7b78f05d6c05f8156a077c7b9f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/sent.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__sent.html",
+          "bytes": 543,
+          "sha256": "fcfdd55f39c62d29ca9f4800518a6b12d7414142ff313c42e821d1b778103eea"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/well-a.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__well-a.html",
+          "bytes": 772,
+          "sha256": "ddb370ee22792efb5e357ffac6d976dff21250d87fd02daadb36a717eed6d224"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/well-b.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__well-b.html",
+          "bytes": 758,
+          "sha256": "7331b02bdc2e9d5e4cc622dae9347f202ff738e682c46c9c2445b1b8405b287f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/well-c.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__well-c.html",
+          "bytes": 758,
+          "sha256": "b844b74677047f330a59c0f2a9ac0c8380a5f5d5f71a6317f100929bac0b42de"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/demo-site/well-d.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__demo-site__well-d.html",
+          "bytes": 746,
+          "sha256": "5ff0f769ddd22125f0f4fade070f3fa18a63801f836bc61ae70b327e830dbfbf"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/background.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__background.js",
+          "bytes": 30965,
+          "sha256": "ac2cb767d1240b227ee1cdbe5cec5d4cf06fd99cdd50e7a7c2088ea131f3c112"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/content-relay.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__content-relay.js",
+          "bytes": 2350,
+          "sha256": "7717c329f42332a1c8ceb385b3a8c412f4f0e0e5752934751229736c4da8c70c"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/fonts/inter-latin-400-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__fonts__inter-latin-400-normal.woff2",
+          "bytes": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/fonts/inter-latin-500-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__fonts__inter-latin-500-normal.woff2",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/fonts/inter-latin-600-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__fonts__inter-latin-600-normal.woff2",
+          "bytes": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/fonts/inter-latin-700-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__fonts__inter-latin-700-normal.woff2",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/fonts/jetbrains-mono-latin-400-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__fonts__jetbrains-mono-latin-400-normal.woff2",
+          "bytes": 21168,
+          "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/fonts/jetbrains-mono-latin-700-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__fonts__jetbrains-mono-latin-700-normal.woff2",
+          "bytes": 21908,
+          "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/icons/icon128.png",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__icons__icon128.png",
+          "bytes": 6107,
+          "sha256": "1a59f6bbd82ce30b66a74cbe226cd82430f9ff8f0ebf6daf8cd67fb4ea07c221"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/icons/icon16.png",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__icons__icon16.png",
+          "bytes": 623,
+          "sha256": "c2d998df88cd4cca7cd2a3b82ee91e589bc3551895433ac17f4f21187377e2b1"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/icons/icon48.png",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__icons__icon48.png",
+          "bytes": 2268,
+          "sha256": "f4bd8ead45250019cdee898e5ff7993f11993d299a9dae76cabb4bdd39e10fef"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/manifest.json",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__manifest.json",
+          "bytes": 1603,
+          "sha256": "55ded5d601ce5d25909a23a17f00a975c189a071d9e811a470a8773adc064d52"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/options.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__options.html",
+          "bytes": 2642,
+          "sha256": "3c1ffac89f65213652d8ab563384cd11c62c46d073c0df7cae47fada3111e083"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/options.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__options.js",
+          "bytes": 2651,
+          "sha256": "d035a228a8a26a3bc4f5e75d6a24cfd858a18e3cdc405ef1ccf8e98fc558615e"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/panel.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__panel.html",
+          "bytes": 3565,
+          "sha256": "8de9be5e40224d8d4ab128c09b64a228662e0235745fcaf716148c74f5b68592"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/panel.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__panel.js",
+          "bytes": 10968,
+          "sha256": "e9a693772584d3fde1c7d71e48c50479fc7cd172f0d5bd3cb0e92593d839399f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/popup.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__popup.html",
+          "bytes": 1619,
+          "sha256": "84a144cbffcff5614535e094cb4e4caed814eebc557e5c98be28b7c06308375c"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/popup.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__popup.js",
+          "bytes": 5100,
+          "sha256": "ffce3854e678594de4d0bedb7b0230f00b39cc6c90abf9f8453ed0c3c55f28f6"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/extension/ui.css",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__extension__ui.css",
+          "bytes": 6882,
+          "sha256": "05fb405812ec73c9d6c423e0ce7e41bf95e89c55abb9356d5d600e47cc2dec71"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/app.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__app.js",
+          "bytes": 25639,
+          "sha256": "f7faa973db0c2888efff3491a92631502934e0e18c368c77754aa2c693cb6cfc"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/fonts/inter-latin-400-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__fonts__inter-latin-400-normal.woff2",
+          "bytes": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/fonts/inter-latin-500-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__fonts__inter-latin-500-normal.woff2",
+          "bytes": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/fonts/inter-latin-600-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__fonts__inter-latin-600-normal.woff2",
+          "bytes": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/fonts/inter-latin-700-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__fonts__inter-latin-700-normal.woff2",
+          "bytes": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/fonts/jetbrains-mono-latin-400-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__fonts__jetbrains-mono-latin-400-normal.woff2",
+          "bytes": 21168,
+          "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/fonts/jetbrains-mono-latin-700-normal.woff2",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__fonts__jetbrains-mono-latin-700-normal.woff2",
+          "bytes": 21908,
+          "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/index.html",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__index.html",
+          "bytes": 7774,
+          "sha256": "7c73aaf09ba3d5d0b310299caddf0c300f4c68e8e33127d3359eb1c5652f0cae"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/portal/style.css",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__portal__style.css",
+          "bytes": 8140,
+          "sha256": "80a3b71fb6fcbb8af78e4f02e9d8c8cbd26514a3485c6b65f108472f461418a1"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/sdk/thox-browser.js",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__sdk__thox-browser.js",
+          "bytes": 9110,
+          "sha256": "8a34d5af973cfa21c5144fc1c89bcce42144de1a81ac1ab9d8df69ad6f9c4d2f"
+        },
+        {
+          "path": "packs/thoxkey-portal/thox/sdk/thox-browser.ts",
+          "url": "https://github.com/ttracx/thox-key-releases/releases/download/thoxkey-portal-0.1.2/thox__sdk__thox-browser.ts",
+          "bytes": 15017,
+          "sha256": "fc79679a08b7d9226eb5d0086f44186161e6ba55362a904e66662ee192aa4ca3"
+        }
+      ]
     }
   ]
 }
