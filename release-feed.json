@@ -1,8 +1,8 @@
 {
   "schema": "thoxkey-release-feed/1",
   "channel": "stable",
-  "sequence": 4,
-  "published": "2026-11-22",
+  "sequence": 5,
+  "published": "2026-11-26",
   "items": [
     {
       "kind": "model",
@@ -194,13 +194,13 @@
     {
       "kind": "setup",
       "id": "thoxkey-setup",
-      "version": "1.1.1",
-      "title": "ThoxKey Setup 1.1.1 for macOS",
+      "version": "1.1.2",
+      "title": "ThoxKey Setup 1.1.2 for macOS",
       "host": "macos",
-      "url": "https://github.com/ttracx/thox-key-provisioner/releases/download/setup-v1.1.1/ThoxKey-Setup-1.1.1-macOS-universal.zip",
-      "bytes": 8742759,
-      "sha256": "5bd5648bf74256aba42559886d08b96d4bc0038e5e270d1500216da418f43e4c",
-      "notes": "Apple silicon and Intel. Ad-hoc signed, not notarized."
+      "url": "https://github.com/ttracx/thox-key-provisioner/releases/download/setup-v1.1.2/ThoxKey-Setup-1.1.2-macOS-universal.zip",
+      "bytes": 8762007,
+      "sha256": "faf8c5c5c9e0db4596d69016a31ed19815ce636b8e88a17f1a5c6801078d0fa6",
+      "notes": "Apple silicon and Intel. Writes sticks through authopen; macOS asks for an administrator password for the chosen stick. Ad-hoc signed, not notarized."
     },
     {
       "kind": "package",

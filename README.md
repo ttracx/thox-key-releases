@@ -38,7 +38,7 @@ list. Steps: [docs/USER_GUIDE.md](docs/USER_GUIDE.md).
 ## The signed release feed
 
 [`release-feed.json`](release-feed.json) lists what is current for a ThoxKey: the THOX models,
-ThoxKey Setup 1.1.1, and the ThoxKey Portal pack. ThoxKey Start and ThoxOS images follow as they
+ThoxKey Setup (1.1.1 for Windows, 1.1.2 for macOS), and the ThoxKey Portal pack. ThoxKey Start and ThoxOS images follow as they
 are published. Each entry
 gives an address, an exact size and a SHA-256. [`release-feed.json.sig`](release-feed.json.sig)
 is an Ed25519 signature over the exact bytes of the feed.
